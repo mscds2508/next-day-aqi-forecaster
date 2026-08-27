@@ -126,3 +126,6 @@ air quality category and alert message.
 The alert system can be used after AQI prediction to make model output easier
 to interpret for users and can be extended with health recommendations or
 notification functionality.
+
+## Feature Test
+This branch is being used to demonstrate the Git feature-branch workflow.
