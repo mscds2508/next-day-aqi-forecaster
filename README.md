@@ -107,3 +107,22 @@ scatter plot is saved to `outputs/actual_vs_predicted.png`.
 - Add weather data (temperature, humidity, wind speed) as external features.
 - Build a simple dashboard/API endpoint around `predict.py` for live scoring.
 
+## AQI Alert System
+
+A new AQI alert feature converts a predicted AQI value into a human-readable
+air quality category and alert message.
+
+### AQI Categories
+
+| AQI Range | Category |
+|---|---|
+| 0–50 | Good |
+| 51–100 | Satisfactory |
+| 101–200 | Moderate |
+| 201–300 | Poor |
+| 301–400 | Very Poor |
+| Above 400 | Severe |
+
+The alert system can be used after AQI prediction to make model output easier
+to interpret for users and can be extended with health recommendations or
+notification functionality.
